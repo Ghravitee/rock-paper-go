@@ -19,7 +19,7 @@ function App() {
     } catch (error) {
       console.error("Error fetching advice:", error);
       // Handle error state
-      setAdvice({ text: "Oops! Something went wrong.", id: "" });
+      setAdvice({ text: "Oops! Something went wrong.", id: 0 });
     }
   };
 
