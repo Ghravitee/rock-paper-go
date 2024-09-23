@@ -15,3 +15,7 @@ export default {
   },
   plugins: [],
 };
+
+// import rock from "../src/images/rock.png";
+// import paper from "../src/images/paper.png";
+// import scissors from "../src/images/scissors.png";
