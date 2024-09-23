@@ -232,7 +232,7 @@ const App = () => {
     <div className="flex items-center justify-center lg:min-h-screen bg-Dark-Blue overflow-hidden">
       {gameOver && <Confetti width={width} height={height} />}{" "}
       {/* Add Confetti when game over */}
-      <div className="max-w-[22rem] md:max-w-[25rem] mx-auto relative bg-Dark-Grayish-Blue px-6 py-8 rounded-lg text-center flex flex-col gap-4 justify-center items-center">
+      <div className="mt-28 lg:mt-0 max-w-[22rem] md:max-w-[25rem] mx-auto relative bg-Dark-Grayish-Blue px-6 py-8 rounded-lg text-center flex flex-col gap-4 justify-center items-center">
         <h1 className="cabin font-bold text-white text-lg md:text-3xl">
           Rock - Paper - Scissors
         </h1>
