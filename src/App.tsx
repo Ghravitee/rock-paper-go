@@ -140,7 +140,7 @@
 
 // export default App;
 
-import React, { useState } from "react";
+import { useState } from "react";
 import rockImg from "../src/images/rock.png";
 import paperImg from "../src/images/paper.png";
 import scissorsImg from "../src/images/scissors.png";
